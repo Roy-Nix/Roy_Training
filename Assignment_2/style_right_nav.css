@@ -1,0 +1,98 @@
+body{
+	margin: 0px;
+}
+.mypage-header{
+	background-color: rgba(47,79,79,1.0);
+	position: fixed;
+	top:0px;
+	width: 100%;
+}
+header h1{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+}
+.mypage-leftnav{
+	position: relative;
+	top: 50px;
+	margin:0px;
+	width: 30%;
+	height: 600px;
+	float: right;
+	z-index: -1;
+}
+#ln1{
+	width: 180px;
+}
+caption{
+	position: relative;
+	border:1px solid black;
+	border-radius: 5px;
+	background-color: #ffd557;
+	width: 200px;
+	margin-left: 35%;
+	margin-top: 10px;
+	z-index: -1;
+}
+table{
+	position: relative;
+	z-index: -1;
+	margin-bottom:50px;
+}
+table, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+tr , td{
+	background-color: #f5f5f5;
+	padding: 5px;
+}
+th{
+	background-color: #2f4f4f;
+	color: white;
+}
+#ln2{
+	width: 120px;
+	margin-bottom: 160px;
+	margin-top: 70px;
+}
+#ln3{
+	width: 330px;
+	margin-bottom: 40px;
+}
+#ln4{
+	width: 100px;
+}
+
+.mypage-leftnav h2{
+	border: 2px solid #664455;
+	border-radius: 5px;
+	background-color: #ffd557;
+}
+.mypage-centercontent{
+	position: relative;
+	top: 65px;
+	font-style: italic;
+	padding-left: 0px;
+	font-size: 20px;
+}
+#cc1{
+	padding-bottom: 20px;
+}
+#cc4{
+	margin-top: 50px;
+}
+span{
+	font-weight: bold;
+}
+.mypage-footer{
+	margin-top: 150px;
+	background-color: rgba(47,79,79,1.0);
+	text-align: center;
+	position: relative;
+	padding: 10px;
+}
+footer h2{
+	color: white;
+}
